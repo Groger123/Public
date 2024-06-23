@@ -15,3 +15,7 @@ class Kostka:
 
     def __repr__(self):
         return f"Kostka({self._pocet_sten})"
+
+
+kostka = Kostka
+print(kostka.hod())
